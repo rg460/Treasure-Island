@@ -42,5 +42,10 @@ if direction_lower_case == "right":
   print("You Fall into a hole . Game Over!\n")
 elif direction_lower_case == "left":
    input("You've come to a lake. There is an island in the middle of the lake. Type wait to wait for a boat. Type swim to swim across:\n")
+ direction_answer_lower_case = direction_answer.lower();
+if direction_answer_lower_case == 'swim':
+  print("Attacked by a mysterious beast that inhabits the lake")
+elif direction_answer_lower_case == 'wait':
+  boat_answer = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose")
 else:
   print("Invalid Direction Game over")
