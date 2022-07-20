@@ -36,3 +36,11 @@ print("Your mission is to find the treasure.")
 # Ask the user to choose a door and store in a varaible 
   # Ensure users answer is not case sensitive
 # if user chooses Blue Eaten by beasts Game Over . if the user chooses red Burned by fire Game Over . If user chooses Yellow then they win . Any Other answer would result in game over  
+direction = input("You're at a crossroad. Where do you want to go? Type left or Type right:\n")
+direction_lower_case = direction.lower()
+if direction_lower_case == "right":
+  print("You Fall into a hole . Game Over!\n")
+elif direction_lower_case == "left":
+   input("You've come to a lake. There is an island in the middle of the lake. Type wait to wait for a boat. Type swim to swim across:\n")
+else:
+  print("Invalid Direction Game over")
