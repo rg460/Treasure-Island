@@ -28,9 +28,11 @@ print("Your mission is to find the treasure.")
 #Write your code below this line 👇
 # Plan
 # Ask the user if they want to go left or right and store in a varaible
+  # Ensure users answer is not case sensitive
 # if the user selects right then the user falls in a hole Game Over if the user selects left then move onto the next stage of game 
 # Ask user if they want to swim or wait and store in variable
+  # Ensure users answer is not case sensitive
 # if answer is swim then user is attacked by trout Game Over and if wait move onto next stage of the game
 # Ask the user to choose a door and store in a varaible 
+  # Ensure users answer is not case sensitive
 # if user chooses Blue Eaten by beasts Game Over . if the user chooses red Burned by fire Game Over . If user chooses Yellow then they win . Any Other answer would result in game over  
-
