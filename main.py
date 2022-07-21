@@ -49,8 +49,8 @@ else:
 if boat_answer == 'yellow':
    print("Congratualtions you chose the correct door. The Treasure is in this room, you win!!") 
 elif boat_answer == 'red':
-  print("You are burned by fire. Game Over ")
+  print("the room is full of fire, you are burned by fire. Game Over ")
 elif boat_answer == 'blue':
-  print("You are Eaten by beasts. Game Over ")
+  print("You open The door and there is a gigantic dragon .You are eaten by the dragon. Game Over ")
 else:
   print("Invalid Answer Game over")
